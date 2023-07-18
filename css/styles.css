@@ -1,0 +1,224 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --primary-saccess-color: #31d0aa;
+  --text-color: #434455;
+  --saccent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-size: 16px;
+  background-color: var(--white-background-color);
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  font-weight: bold;
+}
+.second_h {
+  font-size: 36px;
+  letter-spacing: 2%;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+}
+.third_h {
+  font-size: 20px;
+  font-weight: medium;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+}
+button {
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 24px;
+  background-color: var(--primary-brand-color);
+  color: var(--white-background-color);
+  border: 0px;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background-color: var(--pressed-state-color);
+}
+.small-text {
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 14px;
+}
+.medium-text {
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  font-weight: medium;
+}
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+}
+.list {
+  list-style: none;
+}
+.list .link:active {
+  color: var(--primary-brand-color);
+  text-decoration: underline;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts .link:active {
+  color: var(--primary-brand-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--modal-overlay);
+}
+.logo_second {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.p_second {
+  color: var(--light-color);
+  letter-spacing: 0.02em;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state-color);
+  text-decoration: none;
+}
+.first-section {
+  background-color: var(--hero-background-color);
+}
+.hero_h {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero_button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero_button:hover,
+.hero_button:focus {
+  background-color: var(--pressed-state-color);
+}
+.p_benefits {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.second_h {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--hero-background-color);
+}
+.team_section {
+  background-color: #f4f4fd;
+}
+.team_img {
+  background-color: #ffffff;
+}
+.foot {
+  background-color: var(--hero-background-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--primary-brand-color);
+  text-decoration: none;
+}
+.nav-link.link:hover,
+.nav-link.link:focus {
+  color: var(--pressed-state-color);
+  text-decoration: none;
+}
+.address-link.link:hover,
+.address-link.link:focus {
+  color: var(--pressed-state-color);
+  text-decoration: none;
+}
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio_p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.portfolio_h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+}
