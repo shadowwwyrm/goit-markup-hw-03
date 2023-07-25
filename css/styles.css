@@ -27,13 +27,7 @@ h1 {
   letter-spacing: 2%;
   font-weight: bold;
 }
-.second_h {
-  font-size: 36px;
-  letter-spacing: 2%;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  color: var(--hero-background-color);
-}
+
 .third_h {
   font-size: 20px;
   font-weight: medium;
@@ -163,8 +157,10 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--hero-background-color);
+  color: var(--hero-background-color); 
+  font-weight: bold;  
 }
+
 .team_section {
   background-color: #f4f4fd;
 }
