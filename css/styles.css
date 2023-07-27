@@ -158,7 +158,8 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--hero-background-color); 
-  font-weight: bold;  
+  font-weight: bold;
+  font-weight: bold;
 }
 
 .team_section {
