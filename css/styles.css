@@ -91,7 +91,7 @@ button:focus {
   text-decoration: none;
 }
 
-.buttons-list{
+.buttons-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -111,11 +111,10 @@ ul {
   color: var(--primary-brand-color);
   text-decoration: none;
   margin-right: 76px;
-  
 }
-.foot_logo{
+.foot_logo {
   display: inline-block;
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .logo-part {
   color: var(--modal-overlay);
@@ -147,7 +146,7 @@ ul {
 .second-section {
   padding: 120px 0 120px;
 }
-.third-section{
+.third-section {
   padding-bottom: 120px;
 }
 .hero_h {
@@ -158,8 +157,7 @@ ul {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom:48px;
-  
+  padding-bottom: 48px;
 }
 .hero_button {
   background-color: #4d5ae5;
@@ -205,7 +203,7 @@ ul {
 }
 .team_img {
   background-color: #ffffff;
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .foot {
@@ -249,7 +247,7 @@ ul {
 .filter-button:focus {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 .portfolio_p {
   font-size: 16px;
@@ -265,7 +263,7 @@ ul {
   color: var(--hero-background-color);
   margin-bottom: 8px;
 }
-.portfolio{
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -273,7 +271,6 @@ ul {
 }
 img {
   display: block;
-  
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -285,7 +282,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
-  
 }
 .navigation {
   display: flex;
@@ -303,31 +299,31 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.benefits_list{
+.benefits_list {
   display: flex;
   gap: 24px;
 }
- .benefits-item{
-width: calc((100% - 72px)/4);
+.benefits-item {
+  width: calc((100% - 72px) / 4);
 }
-.third-list{
+.third-list {
   display: flex;
   gap: 24px;
 }
-.we-doing-li{
-  width: calc((100%-48px)/3);
+.we-doing-li {
+  width: calc((100% - 48px) / 3);
 }
-.worker{
+.worker {
   padding: 32px 0 32px;
 }
-.portfolio-section{
+.portfolio-section {
   padding: 96px 0 120px 0;
-  }
-  .portfolio-item{
-    width: calc((100%-48px)/3);
-  }
-  .portfolio-item div{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-  }
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-item div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
