@@ -290,14 +290,14 @@ img {
   display: flex;
   gap: 24px;
 }
-.benefits-li{
+.benefits_list .benefits-li{
 width: calc((100% - 72px) / 4);
 }
 .third-list{
   display: flex;
   gap: 24px;
 }
-.we-doing-li{
+.third-list .we-doing-li{
   width: calc((100% - 48px) / 3);
 }
 .worker{
