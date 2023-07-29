@@ -158,7 +158,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--hero-background-color); 
-    
+
   font-weight: bold;
 }
 
@@ -221,4 +221,10 @@ ul {
 }
 img {
   display: block;
+}
+.page-header{
+  border-bottom: 1px solid #e7e9fc
+}
+.div-page-header{
+  display: flex;
 }
