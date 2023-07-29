@@ -91,6 +91,8 @@ button:focus {
   text-decoration: none;
 }
 
+
+
 ul {
   list-style-type: none;
 }
@@ -103,9 +105,12 @@ ul {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   text-decoration: none;
-  margin-right: 76px;
+  
 }
-
+.foot_logo{
+  display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-part {
   color: var(--modal-overlay);
 }
@@ -116,6 +121,7 @@ ul {
 .p_second {
   color: var(--light-color);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .address-link {
   font-size: 16px;
@@ -145,6 +151,9 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  padding-bottom:48px;
+  
 }
 .hero_button {
   background-color: #4d5ae5;
@@ -160,6 +169,7 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .hero_button:hover,
 .hero_button:focus {
@@ -194,6 +204,7 @@ ul {
 }
 .foot {
   background-color: var(--hero-background-color);
+  padding: 100px 0 100px;
 }
 
 .link {
@@ -256,6 +267,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  
 }
 .navigation {
   display: flex;
@@ -278,7 +290,7 @@ img {
   gap: 24px;
 }
 .benefits-li{
-  width: calc((100%- 3*24px)/4);
+flex-basis: calc((100%-72px)/4);
 }
 .third-list{
   display: flex;
