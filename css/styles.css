@@ -134,6 +134,9 @@ ul {
 .second-section {
   padding: 120px 0 120px;
 }
+.third-section{
+  padding-bottom: 120px;
+}
 .hero_h {
   font-size: 56px;
   line-height: 1.07;
@@ -175,6 +178,7 @@ ul {
   text-transform: capitalize;
   color: var(--hero-background-color);
   font-weight: bold;
+  margin-bottom: 72px;
 }
 
 .team_section {
@@ -269,5 +273,12 @@ img {
   gap: 24px;
 }
 .benefits-li{
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)/4);
+}
+.third-list{
+  display: flex;
+  gap: 24px;
+}
+.we-doing-li{
+  width: calc((100%-48px)/3);
 }
