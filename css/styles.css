@@ -290,8 +290,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.benefits-li{
-width: calc((100%-72px)/4);
+.benefits_list .benefits-li{
+width: calc((100% - 72px) / 4);
 }
 .third-list{
   display: flex;
