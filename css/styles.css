@@ -69,9 +69,12 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--hero-background-color);
+  padding: 24px 0 24px;
 }
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .list .link:active {
   color: var(--primary-brand-color);
@@ -79,6 +82,7 @@ button:focus {
 }
 .contacts {
   font-style: normal;
+  display: flex;
 }
 .contacts .link:active {
   color: var(--primary-brand-color);
@@ -97,6 +101,7 @@ ul {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -227,4 +232,13 @@ img {
 }
 .div-page-header{
   display: flex;
+}
+.container{
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+}
+.navigation{
+  display: flex;
+  align-items: center;
 }
